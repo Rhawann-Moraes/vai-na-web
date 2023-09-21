@@ -46,6 +46,7 @@ programa
 			}
 			senao
 			{
+				limpa()
 				escreva("\n", nome," ", idade, " anos.\n")
 				escreva("Data de nascimento: ", dataNascimento,"\n")
 				escreva("Telefone: ", "(", ddd, ")", telefone,"\n")
@@ -64,7 +65,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 306; 
+ * @POSICAO-CURSOR = 998; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
