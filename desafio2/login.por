@@ -24,6 +24,7 @@ programa
 		leia(usuarioCadastrado)
 		escreva("\nSenha: ")
 		leia(senhaCadastrada)
+		limpa()
 
 		escreva("\nCadastro efetuado com sucesso.\n")
 		escreva("_________________________________")
@@ -45,7 +46,7 @@ programa
 			}
 			senao
 			{
-				escreva("\n", nome," ", idade, "anos.\n")
+				escreva("\n", nome," ", idade, " anos.\n")
 				escreva("Data de nascimento: ", dataNascimento,"\n")
 				escreva("Telefone: ", "(", ddd, ")", telefone,"\n")
 				escreva("Endereço: ", endereco, "\n")
@@ -63,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 465; 
+ * @POSICAO-CURSOR = 306; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
