@@ -3,9 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia usuarioCadastrado, login, senhaCadastrada,senha
+		cadeia usuarioCadastrado, login, senhaCadastrada,senha, nome, endereco, telefone, dataNascimento
+		inteiro idade, ddd
+		
 		escreva("Página de cadastro \n")
 		escreva("_____________________")
+		escreva("\nNome completo: ")
+		leia(nome)
+		escreva("\nIdade: ")
+		leia(idade)
+		escreva("\nData de Nascimento: ")
+		leia(dataNascimento)
+		escreva("\nEndereço: ")
+		leia(endereco)
+		escreva("\nDDD: ")
+		leia(ddd)
+		escreva("\nTelefone: ")
+		leia(telefone)
 		escreva("\nLogin: ")
 		leia(usuarioCadastrado)
 		escreva("\nSenha: ")
@@ -16,11 +30,6 @@ programa
 
 		inteiro tentativa
 		tentativa = 0
-		
-		escreva("\nLogin: ")
-		leia(login)
-		escreva("\nSenha: ")
-		leia(senha)
 		
 		enquanto(tentativa < 3)
 		{	
@@ -36,8 +45,10 @@ programa
 			}
 			senao
 			{
-				escreva("Olá, ", usuarioCadastrado, " !\n")
-				escreva("Sua senha é ", senhaCadastrada, "\n")
+				escreva("\n", nome," ", idade, "anos.\n")
+				escreva("Data de nascimento: ", dataNascimento,"\n")
+				escreva("Telefone: ", "(", ddd, ")", telefone,"\n")
+				escreva("Endereço: ", endereco, "\n")
 				pare
 			}
 		}
@@ -52,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 954; 
+ * @POSICAO-CURSOR = 465; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
